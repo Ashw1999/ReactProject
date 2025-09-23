@@ -1,0 +1,7 @@
+ npx json-server --watch data.json --port 2000 
+ above command will work only from database directory
+
+  npx json-server --watch  ./vite-project/src/Database/data.json --port 2000
+
+  above command will work only from reactclass1 directory
+ 

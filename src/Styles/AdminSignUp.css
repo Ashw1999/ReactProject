@@ -1,0 +1,82 @@
+.AdminSignUp {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 75vw;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+/* Thumbnail Section */
+.Thumbnail {
+  flex: 1 1 300px;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Thumbnail img {
+  height: 35rem;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Form Section */
+.forms {
+  /* flex: 1 1 400px; */
+  border: 1px solid red;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px green;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Inputs and Labels */
+.forms label {
+  font-weight: 600;
+  color: rgb(42, 1, 1);
+}
+
+.forms input {
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 255, 0.527);
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 1rem;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.forms button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #f200ff, #c200ff);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.forms button:hover {
+  background: black;
+  color: #f200ff;
+  box-shadow: 0 4px 10px rgba(0, 255, 204, 0.5);
+}

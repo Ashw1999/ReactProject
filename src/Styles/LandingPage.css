@@ -1,0 +1,66 @@
+/* Parent container to center LandingPage */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e0f7fa, #f3e5f5); /* optional */
+    font-family: Arial, sans-serif;
+  }
+  
+  .LandingPage {
+    max-width: 90vw;
+    padding: 20px;
+    box-shadow: -3px -3px 10px -2px rgb(251, 0, 255),
+                3px 3px 10px 0px rgb(0, 213, 255);
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+  
+
+  .LandingPage p {
+    margin: 0;
+    font-size: 18px;
+    transition: color 0.3s, font-weight 0.3s;
+  }
+  
+  .LandingPage p:hover {
+    color: rgb(96, 6, 87);
+    font-weight: 700;
+  }
+  
+  /* Images */
+  #img, #img1 {
+    height: 150px;
+    width: 120px;
+    transition: transform 0.3s ease;
+  }
+  
+  #img:hover, #img1:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .LandingPage {
+      width: 70vw;
+    }
+  
+    #img, #img1 {
+      width: 100px;
+      height: 130px;
+    }
+  
+    .LandingPage p {
+      font-size: 16px;
+    }
+  }
+  

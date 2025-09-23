@@ -1,0 +1,102 @@
+
+.AdminLogin {
+    min-height: 90vh;
+    width: 94vw;
+    margin: 2rem;
+    background: linear-gradient(to right, #d4f1f4, #f9f9f9);
+    display: flex;
+    box-shadow: 
+    -5px -3px 10px rgba(255, 0, 247, 0.513), 
+     5px  3px 10px rgba(0, 247, 255, 0.513);  
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Form Box */
+.form {
+    background-color: rgba(79, 81, 80, 0.523);
+    border-radius: 12px;
+    box-shadow: 
+    -5px -3px 8px rgba(81, 255, 0, 0.513),
+     5px  3px 9px rgba(0, 85, 255, 0.77);   
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Labels */
+.form label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Inputs */
+.form input {
+    padding: 10px;
+    border: 1.5px solid #555;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #6600cc;
+    box-shadow: 0 0 5px rgba(102, 0, 204, 0.5);
+}
+
+/* Button */
+.form button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #f200ff, #c200ff);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form button:hover {
+    background: black;
+    color: #f200ff;
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.5);
+}
+
+/* Register Paragraph */
+.form p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form p a:hover {
+    color: red;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .form {
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+
+    .form label,
+    .form input,
+    .form button {
+        font-size: 15px;
+    }
+}
