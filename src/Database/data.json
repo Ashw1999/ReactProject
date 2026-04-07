@@ -1,0 +1,44 @@
+{
+  "Admins": [
+    {
+      "id": "1040",
+      "uname": "Ashwani",
+      "phone": "8651481887",
+      "age": "21",
+      "email": "ashutosh@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "cdd3",
+      "uname": "Aditya",
+      "phone": "8651481886",
+      "age": "25",
+      "email": "aditya@gmail.com",
+      "password": "456456"
+    },
+    {
+      "id": "d0ad",
+      "uname": "",
+      "phone": "",
+      "age": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "5de4",
+      "uname": "Ashwani",
+      "phone": "8651481887",
+      "age": "27",
+      "email": "ak1581706@gmail.com",
+      "password": "654654"
+    },
+    {
+      "id": "2810",
+      "uname": "Sumant Thakur",
+      "phone": "7061233194",
+      "age": "25",
+      "email": "srajthakur123@gmail.com",
+      "password": "789789"
+    }
+  ]
+}
