@@ -15,8 +15,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<DashBoard />} /> */}
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<DashBoard />} />
+        <Route path="/landing" element={<LandingPage />} />
         <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="/user-login" element={<UserLogin />} />
         <Route path="/admin-signup" element={<AdminSignUp />} />
